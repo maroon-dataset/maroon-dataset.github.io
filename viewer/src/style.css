@@ -1,0 +1,122 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.lil-gui {
+    --width: 800px;
+    --name-width: 80%;
+    --widget-height: 30px;
+    --font-size: 20px;
+    --input-font-size: 20px;
+    --hover-color: #247642;
+    --focus-color: #2cc9ff;
+    --folder-indent: 5%;
+    --checkbox-size: 30px;
+}
+
+
+#canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+}
+
+#progressbar {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    background-color: grey;
+    color: rgb(255, 0, 0);
+    width: 50%;
+    height: 2%;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+#percentage {
+    display: inherit;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+
+#license {
+    display: inherit;
+    position: absolute;
+    font-family: Arial;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0%;
+    transform: translateY(0%);
+    color: white;
+}
+
+#description {
+    display: inherit;
+    width: 20%;
+    position: absolute;
+    font-family: Arial;
+    margin: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* .fragment {
+    font-size: 12px;
+    font-family: tahoma;
+    height: 140px;
+    border: 1px solid #ccc;
+    color: #555;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.fragment:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+
+}
+
+.fragment img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.fragment h3 {
+    padding: 0;
+    margin: 0;
+    color: #369;
+}
+
+.fragment h4 {
+    padding: 0;
+    margin: 0;
+    color: #000; */
+/* } */
+
+/* #close {
+    float: right;
+    display: inline-block;
+    padding: 2px 5px;
+    background: #ccc;
+} */
