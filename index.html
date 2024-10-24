@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MAROON Viewer</title>
+</head>
+
+<body>
+    <a id="description">
+        <div>
+            <span id='close' onclick='this.parentNode.parentNode.remove(); return false;'>[x]</span>
+            <h3>Description</h3>
+            <p class="text">
+                this is a short description yada yada peanuts etc this is a short description yada yada peanuts etc
+                this
+                is a short description yada yada peanuts etc this is a short description yada yada peanuts etcthis
+                is a
+                short description yada yada peanuts etc
+            </p>
+        </div>
+    </a>
+    <canvas id="canvas">
+    </canvas>
+    <script type="module" src="viewer/dist/bundle.js"></script>
+
+
+    <div id="license">
+        <p><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png">
+            The code and the data are licensed under a Creative Commons Attribution-NonCommercial 4.0 International
+            License.
+        </p>
+
+    </div>
+    <div id="progressbar">
+        <p id="percentage"></p>
+    </div>
+</body>
+
+</html>
